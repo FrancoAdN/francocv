@@ -1,0 +1,60 @@
+.work {
+    width: 400px;
+    height: 250px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.borderWork {
+    width: 15px;
+    height: 100%;
+    background-color: #4b9cd6;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.work-rigth {
+    width: 400px;
+    height: 250px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.borderWork-right {
+    width: 15px;
+    height: 100%;
+    background-color: #4b9cd6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.infoWork {
+    width: 385px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.infoWork div {
+    margin-left: 20px;
+}
+
+.workEmp {
+    font-size: 28px;
+}
+
+.workTit {
+    font-size: 22px;
+}
+
+.workStart {
+    font-size: 18px;
+}

@@ -1,0 +1,138 @@
+.education {
+    width: 100%;
+    height: 1000px;
+}
+
+.lineEducation {
+    width: 10px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 5px);
+    /* top: 1780px; */
+}
+
+.educationItem {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 20px);
+}
+
+.ItemOne {
+    position: absolute;
+    left: 120px;
+    top: -15px
+}
+
+.rightLine {
+    width: 85px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+}
+
+.educationItemTwo {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: 70px
+}
+
+.ItemTwo {
+    position: absolute;
+    left: -580px;
+    top: -15px
+}
+
+.leftLine {
+    width: 85px;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 15px;
+    left: -80px;
+}
+
+.educationItemThree {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: 500px;
+}
+
+.educationItemFour {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: 570px;
+}
+
+.closedOne {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -16px;
+    top: -5px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closedTwo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -16px;
+    top: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closedThree {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -16px;
+    top: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closedFour {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: -16px;
+    top: 570px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

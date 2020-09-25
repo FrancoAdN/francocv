@@ -1,0 +1,96 @@
+.header {
+    width: 1000px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imgWrapper {
+    width: 370px;
+    height: 100%;
+    background-image: url(./franco.jpg);
+}
+
+.infoWrapper {
+    width: 650px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameWrapper {
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nameIntro {
+    font-size: 35px;
+    color: #4b9cd6;
+}
+
+.headerName {
+    font-size: 35px;
+    color: #dcdcdc;
+}
+
+.nameTitle {
+    font-size: 20px;
+    color: #dcdcdc;
+}
+
+.personalInfo {
+    width: 100%;
+    height: 200px;
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pInfoItem {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+.infoItemTitle {
+    color: #4b9cd6;
+    font-size: 18px;
+}
+
+.infoItemResp {
+    color: black;
+    font-size: 18px;
+}
+
+.socialMedia {
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialImgWrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialImgWrapper:hover {
+    background-color: #1e1e1e;
+}

@@ -1,0 +1,80 @@
+.experience {
+    width: 1000px;
+    height: 1050px;
+}
+
+.experienceLineOne {
+    width: 10px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    left: calc(50% - 5px);
+    top: 2400px;
+}
+
+.horizontalLine {
+    height: 10px;
+    width: 700px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: -350px;
+}
+
+.expLeft {
+    width: 10px;
+    height: 785px;
+    background-color: black;
+    position: absolute;
+}
+
+.lineWorkOne {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 170px;
+}
+
+.workExpOne {
+    position: absolute;
+    left: 50px;
+    top: 50px
+}
+
+.expRight {
+    width: 10px;
+    height: 485px;
+    background-color: black;
+    position: absolute;
+    left: 700px;
+}
+
+.workExpTwo {
+    position: absolute;
+    left: -450px;
+    top: 350px
+}
+
+.lineWorkTwo {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 475px;
+    left: -60px;
+}
+
+.lineWorkThree {
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 775px;
+}
+
+.workExpThree {
+    position: absolute;
+    left: 50px;
+    top: 650px
+}

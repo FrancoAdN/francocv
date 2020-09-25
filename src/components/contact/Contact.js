@@ -13,7 +13,11 @@ export default function Contact() {
     const handleOnSubmit = (e) => {
         e.preventDefault()
         const data = { name, email, subject, body }
-        axios.post('http://francoadn.spicy.com.ar/', data)
+        axios.post('http://francoadn.spicy.com.ar/contact', data)
+        setBody('')
+        setEmail('')
+        setName('')
+        setSubject('')
     }
 
     return (

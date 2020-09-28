@@ -39,12 +39,12 @@ class LanguageSwitcherSelector extends React.Component {
                     className={this.props.lang}
                 >
                 </div>
-                <ul class="dropdown" >
+                <ul className="dropdown" >
                     {
                         languages.map(lang => {
                             if (lang.code !== this.props.lang)
-                                return (<li onClick={this.onChange}><div value={lang.code} className={lang.code} ></div></li>)
-                            return <li></li>
+                                return (<li key={lang.code} onClick={this.onChange}><div value={lang.code} className={lang.code} ></div></li>)
+                            return <li key={lang.code}></li>
                         })
                     }
                 </ul>

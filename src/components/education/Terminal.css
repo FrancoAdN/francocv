@@ -97,3 +97,19 @@ border: 80. 81. 82
 top: 42. 43. 44.
 body: 30. 30. 30
 */
+
+@media (max-width: 375px) {
+    .terminal {
+        width: 360px;
+        height: 500px;
+    }
+    .terminalBody {
+        height: 470px;
+    }
+    .termSpacer {
+        width: 0px;
+    }
+    .programContent {
+        height: 380px;
+    }
+}

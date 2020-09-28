@@ -136,3 +136,47 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 375px) {
+    .education {
+        position: absolute;
+        top: 2000px;
+    }
+    .lineEducation {
+        height: 2070px;
+    }
+    .rightLine {
+        display: none;
+    }
+    .leftLine {
+        display: none;
+    }
+    .ItemOne {
+        position: absolute;
+        top: 100px;
+        left: -162.5px;
+    }
+    .educationItemTwo {
+        top: 650px
+    }
+    .ItemTwo {
+        position: absolute;
+        top: 100px;
+        left: -162.5px;
+    }
+    .educationItemThree {
+        top: 1300px
+    }
+    .educationItemFour {
+        top: 1950px;
+    }
+    .closedTwo {
+        top: 650px
+    }
+    .closedThree {
+        top: 1300px
+    }
+    .closedFour {
+        top: 1950px;
+    }
+}

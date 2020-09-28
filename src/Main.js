@@ -25,24 +25,24 @@ function Main() {
             <LangSwitcher />
             <Redirection about={aboutRef} education={educationRef} work={workRef} skills={skillsRef} contact={contactRef} />
             <Header />
-            <div className="sectionTitle" ref={aboutRef}>
+            <div className="sectionTitle titleabout" ref={aboutRef}>
                 <img src="https://img.icons8.com/ios-glyphs/50/000000/user-male-circle.png" alt="about me" />
                 <h1>{about.title}</h1>
             </div>
             <About />
-            <div className="sectionTitle" ref={educationRef}>
+            <div className="sectionTitle titleeducation" ref={educationRef}>
                 <img src="https://img.icons8.com/fluent-systems-filled/50/000000/education.png" alt="education" />
                 <h1>{education.title}</h1>
             </div>
             <Education />
 
-            <div className="sectionTitleLarge" ref={workRef}>
+            <div className="sectionTitleLarge titlework" ref={workRef}>
                 <img src="https://img.icons8.com/ios-filled/50/000000/job.png" alt="experience" />
                 <h1>{work.title}</h1>
             </div>
             <Experience />
 
-            <div className="sectionTitleSkills" ref={skillsRef}>
+            <div className="sectionTitleSkills titleskills" ref={skillsRef}>
                 <div className="skillContainer">
                     <img src={skills_img} alt="skills" />
                 </div>
@@ -50,7 +50,7 @@ function Main() {
             </div>
             <Skills />
 
-            <div className="sectionTitleSkills" ref={contactRef}>
+            <div className="sectionTitleSkills titlecontact" ref={contactRef}>
                 <div className="skillContainer">
                     <img src={contact_img} alt="contact" />
                 </div>

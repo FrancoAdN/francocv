@@ -1,4 +1,5 @@
 .experience {
+    max-width: 100%;
     width: 1000px;
     height: 1050px;
 }
@@ -77,4 +78,66 @@
     position: absolute;
     left: 50px;
     top: 650px
+}
+
+@media (max-width: 375px) {
+    .experience {
+        max-width: 100%;
+        height: 1050px;
+    }
+    .experienceLineOne {
+        top: 4850px;
+    }
+    .horizontalLine {
+        height: 10px;
+        width: 370px;
+        background-color: black;
+        position: absolute;
+        top: 79px;
+        left: -180px;
+    }
+    .lineWorkOne {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 170px;
+    }
+    .lineWorkThree {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 775px;
+    }
+    .workExpOne {
+        position: absolute;
+        left: 30px;
+        top: 50px
+    }
+    .workExpThree {
+        position: absolute;
+        left: 30px;
+        top: 650px
+    }
+    .expRight {
+        width: 10px;
+        height: 510px;
+        background-color: black;
+        position: absolute;
+        left: 360px;
+    }
+    .lineWorkTwo {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 500px;
+        left: -29px;
+    }
+    .workExpTwo {
+        position: absolute;
+        left: -340px;
+        top: 375px
+    }
 }

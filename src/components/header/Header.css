@@ -1,4 +1,5 @@
 .header {
+    max-width: 100%;
     width: 1000px;
     height: 370px;
     display: flex;
@@ -93,4 +94,44 @@
 
 .socialImgWrapper:hover {
     background-color: #1e1e1e;
+}
+
+@media (max-width: 375px) {
+    .header {
+        height: 890px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 300px;
+    }
+    .imgWrapper {
+        width: 370px;
+        height: 420px;
+        background-image: url(./franco.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .infoWrapper {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nameWrapper {
+        height: 160px;
+        text-align: center;
+    }
+    .personalInfo {
+        width: 100%;
+        height: 400px;
+    }
+    .pInfoItem {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

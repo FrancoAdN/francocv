@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #333333;
 }
 
 .imgWrapper {
@@ -96,7 +97,7 @@
     background-color: #1e1e1e;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .header {
         height: 890px;
         display: flex;
@@ -135,3 +136,104 @@
         align-items: center;
     }
 }
+
+/* @media (max-width: 375px) {
+    .header {
+        height: 890px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 300px;
+    }
+    .imgWrapper {
+        width: 370px;
+        height: 420px;
+        background-image: url(./franco.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .infoWrapper {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nameWrapper {
+        height: 160px;
+        text-align: center;
+    }
+    .personalInfo {
+        width: 100%;
+        height: 400px;
+    }
+    .pInfoItem {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 540px) {
+    .header {
+        height: 890px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 300px;
+    }
+    .imgWrapper {
+        width: 370px;
+        height: 420px;
+        background-image: url(./franco.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .infoWrapper {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nameWrapper {
+        height: 160px;
+        text-align: center;
+    }
+    .personalInfo {
+        width: 100%;
+        height: 400px;
+    }
+    .pInfoItem {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+} */
+
+/* @media (max-width: 768px) {
+    .header {
+        position: absolute;
+        top: 300px;
+    }
+    .imgWrapper {
+        width: 300px;
+        background-image: url(./franco.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .nameWrapper {
+        height: 160px;
+        text-align: center;
+    }
+} */
+
+@media (max-width: 1024px) {}

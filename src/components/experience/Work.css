@@ -59,7 +59,7 @@
     font-size: 18px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .work {
         width: 310px;
         height: 300px;

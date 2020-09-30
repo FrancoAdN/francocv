@@ -137,6 +137,82 @@
     align-items: center;
 }
 
+@media (max-width: 1024px) {
+    .rightLine {
+        width: 20px;
+    }
+    .leftLine {
+        width: 20px;
+        left: -20px;
+    }
+    .ItemOne {
+        left: 60px;
+    }
+    .ItemTwo {
+        left: -470px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rightLine {
+        width: 10px;
+    }
+    .leftLine {
+        width: 10px;
+        left: -10px;
+    }
+    .ItemOne {
+        left: 50px;
+    }
+    .ItemTwo {
+        left: -360px;
+    }
+}
+
+@media (max-width: 425px) {
+    .education {
+        position: absolute;
+        top: 2000px;
+    }
+    .lineEducation {
+        height: 2070px;
+    }
+    .rightLine {
+        display: none;
+    }
+    .leftLine {
+        display: none;
+    }
+    .ItemOne {
+        position: absolute;
+        top: 100px;
+        left: -190px;
+    }
+    .educationItemTwo {
+        top: 650px
+    }
+    .ItemTwo {
+        position: absolute;
+        top: 100px;
+        left: -190px;
+    }
+    .educationItemThree {
+        top: 1300px
+    }
+    .educationItemFour {
+        top: 1950px;
+    }
+    .closedTwo {
+        top: 650px
+    }
+    .closedThree {
+        top: 1300px
+    }
+    .closedFour {
+        top: 1950px;
+    }
+}
+
 @media (max-width: 375px) {
     .education {
         position: absolute;
@@ -180,3 +256,95 @@
         top: 1950px;
     }
 }
+
+/* 
+
+@media (max-width: 540px) {
+    .education {
+        position: absolute;
+        top: 1850px;
+    }
+    .lineEducation {
+        height: 2070px;
+    }
+    .rightLine {
+        display: none;
+    }
+    .leftLine {
+        display: none;
+    }
+    .ItemOne {
+        position: absolute;
+        top: 100px;
+        left: -225px;
+    }
+    .educationItemTwo {
+        top: 650px
+    }
+    .ItemTwo {
+        position: absolute;
+        top: 100px;
+        left: -225px;
+    }
+    .educationItemThree {
+        top: 1300px
+    }
+    .educationItemFour {
+        top: 1950px;
+    }
+    .closedTwo {
+        top: 650px
+    }
+    .closedThree {
+        top: 1300px
+    }
+    .closedFour {
+        top: 1950px;
+    }
+} */
+
+/* @media (max-width: 768px) {
+    .education {
+        position: absolute;
+        top: 1350px;
+    }
+    .lineEducation {
+        height: 2070px;
+    }
+    .rightLine {
+        display: none;
+    }
+    .leftLine {
+        display: none;
+    }
+    .ItemOne {
+        position: absolute;
+        top: 100px;
+        left: -225px;
+    }
+    .educationItemTwo {
+        top: 650px
+    }
+    .ItemTwo {
+        position: absolute;
+        top: 100px;
+        left: -225px;
+    }
+    .educationItemThree {
+        top: 1300px
+    }
+    .educationItemFour {
+        top: 1950px;
+    }
+    .closedTwo {
+        top: 650px
+    }
+    .closedThree {
+        top: 1300px
+    }
+    .closedFour {
+        top: 1950px;
+    }
+} */
+
+@media (max-width: 1024px) {}

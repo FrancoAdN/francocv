@@ -88,6 +88,14 @@
     justify-content: space-evenly;
 }
 
+.titleresponse {
+    font-size: 32px;
+}
+
+.instituteresponse {
+    font-size: 22px;
+}
+
 /* 
 close: 255. 91 .85
 min: 231. 192. 61
@@ -97,6 +105,53 @@ border: 80. 81. 82
 top: 42. 43. 44.
 body: 30. 30. 30
 */
+
+@media (max-width: 1024px) {
+    .terminal {
+        width: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    .terminal {
+        width: 350px;
+    }
+    .termSpacer {
+        width: 0px;
+    }
+    .terminalBody {
+        font-size: 12px;
+    }
+    .titleresponse {
+        font-size: 26px;
+    }
+    .instituteresponse {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 425px) {
+    .terminal {
+        width: 414px;
+        height: 500px;
+    }
+    .terminalBody {
+        height: 470px;
+        font-size: 16px;
+    }
+    .termSpacer {
+        width: 0px;
+    }
+    .programContent {
+        height: 380px;
+    }
+    .titleresponse {
+        font-size: 26px;
+    }
+    .instituteresponse {
+        font-size: 22px;
+    }
+}
 
 @media (max-width: 375px) {
     .terminal {

@@ -3,6 +3,10 @@
     src: url(./components/CascadiaCode.ttf) format("truetype");
 }
 
+body {
+    background-color: #e7e7e7;
+}
+
 .mainDiv {
     width: 100%;
     max-width: 100%;
@@ -123,10 +127,7 @@
     height: 40px;
 }
 
-@media (max-width: 375px) {
-    .mainDiv {
-        height: 8000px;
-    }
+@media (max-width: 425px) {
     .titleabout {
         position: absolute;
         top: 1300px;
@@ -149,3 +150,82 @@
         top: 7600px;
     }
 }
+
+/*
+@media (max-width: 425px) {
+    .mainDiv {
+        height: 8600px;
+    }
+    .titleabout {
+        position: absolute;
+        top: 1300px;
+    }
+    .titleeducation {
+        position: absolute;
+        top: 1900px;
+    }
+    .titlework {
+        position: absolute;
+        top: 4700px;
+    }
+    .titleskills {
+        position: absolute;
+        top: 6000px;
+    }
+    .titlecontact {
+        position: absolute;
+        top: 7600px;
+    }
+}
+
+@media (max-width: 540px) {
+    .mainDiv {
+        height: 8100px;
+    }
+    .titleabout {
+        position: absolute;
+        top: 1300px;
+    }
+    .titleeducation {
+        position: absolute;
+        top: 1750px;
+    }
+    .titlework {
+        position: absolute;
+        top: 4400px;
+    }
+    .titleskills {
+        position: absolute;
+        top: 5600px;
+    }
+    .titlecontact {
+        position: absolute;
+        top: 7100px;
+    }
+} */
+
+/* @media (max-width: 768px) {
+    .mainDiv {
+        height: 7400px;
+    }
+    .titleabout {
+        position: absolute;
+        top: 800px;
+    }
+    .titleeducation {
+        position: absolute;
+        top: 1250px;
+    }
+    .titlework {
+        position: absolute;
+        top: 3900px;
+    }
+    .titleskills {
+        position: absolute;
+        top: 5100px;
+    }
+    .titlecontact {
+        position: absolute;
+        top: 6600px;
+    }
+} */

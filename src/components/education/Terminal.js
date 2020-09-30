@@ -39,12 +39,12 @@ export default function Terminal({ education, closeTerm }) {
                 <div className="programContent">
                     <div className="body-command">
                         <div className="command">Title:</div>
-                        <div className="commandResponse" style={{ fontSize: "32px" }}>{title}</div>
+                        <div className="commandResponse titleresponse" >{title}</div>
                         <div className="body-space"></div>
                     </div>
                     <div className="body-command">
                         <div className="command">Institute:</div>
-                        <div className="commandResponse" style={{ fontSize: "22px" }}>{institute}</div>
+                        <div className="commandResponse instituteresponse">{institute}</div>
                         <div className="body-space"></div>
                     </div>
                     <div className="body-command">

@@ -80,7 +80,7 @@
     top: 650px
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .experience {
         max-width: 100%;
         height: 1050px;
@@ -141,3 +141,74 @@
         top: 375px
     }
 }
+
+/* @media (max-width: 540px) {
+    .experience {
+        max-width: 100%;
+        height: 1050px;
+    }
+    .experienceLineOne {
+        top: 4500px;
+    }
+    .horizontalLine {
+        height: 10px;
+        width: 530px;
+        background-color: black;
+        position: absolute;
+        top: 79px;
+        left: -260px;
+    }
+    .lineWorkOne {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 170px;
+    }
+    .lineWorkThree {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 775px;
+    }
+    .workExpOne {
+        position: absolute;
+        left: 30px;
+        top: 50px
+    }
+    .workExpThree {
+        position: absolute;
+        left: 30px;
+        top: 650px
+    }
+    .expRight {
+        width: 10px;
+        height: 480px;
+        background-color: black;
+        position: absolute;
+        left: 520px;
+    }
+    .lineWorkTwo {
+        width: 30px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 470px;
+        left: -29px;
+    }
+    .workExpTwo {
+        position: absolute;
+        left: -420px;
+        top: 350px
+    }
+} */
+
+/* 
+@media (max-width: 768px) {
+    .experienceLineOne {
+        top: 4000px;
+    }
+} */
+
+@media (max-width: 1024px) {}

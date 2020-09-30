@@ -50,7 +50,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .aboutContainer {
         height: 350px;
         background-color: #1e1e1e;
@@ -65,3 +65,19 @@
         height: 300px;
     }
 }
+
+/* @media (max-width: 375px) {
+    .aboutContainer {
+        height: 350px;
+        background-color: #1e1e1e;
+        display: flex;
+        flex-direction: column;
+        font-family: Cascadia;
+        border-radius: 10px;
+        position: absolute;
+        top: 1400px;
+    }
+    .mainTextWrapper {
+        height: 300px;
+    }
+} */
